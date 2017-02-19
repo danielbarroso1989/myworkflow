@@ -1,0 +1,7 @@
+body {
+  background: white; }
+
+.box {
+  text-shadow: 1px 1px 1px 1px black;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease; }

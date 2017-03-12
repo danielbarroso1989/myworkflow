@@ -89,7 +89,7 @@ margin-top:0%;
 width:90%;
 margin:auto;
 @include phone{ 
-width:50%;
+width:40%;
 }
 
 	}
@@ -102,6 +102,9 @@ width:50%;
 //seccion 2
 .seccion-2{
 position:relative;
+background-image:url('../img/bg-ent.png');
+ background-repeat: no-repeat;
+   background-size: cover;  
 
 .titulo{
 color:$rojo;
@@ -119,6 +122,8 @@ span{
 }
 .logos{
 	margin-top:50px;
+	height:auto;
+
 	@include phone{ 
 margin-top:30px;
 }
@@ -128,6 +133,7 @@ width:25%;
 margin:auto;
 @include phone{ 
 width:30%;
+
 }
 
 	}
@@ -142,5 +148,88 @@ width:30%;
 	margin:20px auto;
 }
 
+.contacto2-section{
+	margin-top:100px;
+
+	img{
+      width: 30%;
+      margin: 30px auto;
+      @include phone{ 
+      width: 50%;
+      }
+	}
+}
+
 
 }
+
+
+
+
+
+
+//seccion 3
+.seccion-3{
+p{
+	font-size:40px !important;
+}
+position:relative;
+background-image:url('../img/bg-wu.png');
+ background-repeat: no-repeat;
+   background-size: cover;  
+   color: white;
+
+.titulo{
+color:$rojo;
+margin-bottom:20px;
+}
+.texto{
+margin-bottom:20px;	
+}
+.lista{
+margin-bottom:20px;
+}
+span{
+	font-size:30px;
+	margin-top:-10px;
+}
+.logos{
+	margin-top:50px;
+	height:auto;
+
+	@include phone{ 
+margin-top:30px;
+}
+
+	img{
+width:25%;
+margin:auto;
+@include phone{ 
+width:30%;
+
+}
+
+	}
+}
+
+
+.logo-warm{
+width:50%;
+margin:30px auto;
+}
+
+.contacto2-section{
+	margin-top:50px;
+
+	img{
+      width: 30%;
+      margin: 30px auto;
+      @include phone{ 
+      width: 50%;
+      }
+	}
+}
+
+
+}
+

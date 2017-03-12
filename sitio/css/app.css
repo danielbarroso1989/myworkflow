@@ -58,10 +58,13 @@ p {
       margin: auto; }
       @media only screen and (max-width: 750px) {
         .seccion-1 .logos img {
-          width: 50%; } }
+          width: 40%; } }
 
 .seccion-2 {
-  position: relative; }
+  position: relative;
+  background-image: url("../img/bg-ent.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
   .seccion-2 .titulo {
     color: #990000;
     margin-bottom: 20px; }
@@ -73,7 +76,8 @@ p {
     font-size: 30px;
     margin-top: -10px; }
   .seccion-2 .logos {
-    margin-top: 50px; }
+    margin-top: 50px;
+    height: auto; }
     @media only screen and (max-width: 750px) {
       .seccion-2 .logos {
         margin-top: 30px; } }
@@ -88,3 +92,53 @@ p {
   .seccion-2 .titulo-evento {
     width: 60%;
     margin: 20px auto; }
+  .seccion-2 .contacto2-section {
+    margin-top: 100px; }
+    .seccion-2 .contacto2-section img {
+      width: 30%;
+      margin: 30px auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-2 .contacto2-section img {
+          width: 50%; } }
+
+.seccion-3 {
+  position: relative;
+  background-image: url("../img/bg-wu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+  .seccion-3 p {
+    font-size: 40px !important; }
+  .seccion-3 .titulo {
+    color: #990000;
+    margin-bottom: 20px; }
+  .seccion-3 .texto {
+    margin-bottom: 20px; }
+  .seccion-3 .lista {
+    margin-bottom: 20px; }
+  .seccion-3 span {
+    font-size: 30px;
+    margin-top: -10px; }
+  .seccion-3 .logos {
+    margin-top: 50px;
+    height: auto; }
+    @media only screen and (max-width: 750px) {
+      .seccion-3 .logos {
+        margin-top: 30px; } }
+    .seccion-3 .logos img {
+      width: 25%;
+      margin: auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-3 .logos img {
+          width: 30%; } }
+  .seccion-3 .logo-warm {
+    width: 50%;
+    margin: 30px auto; }
+  .seccion-3 .contacto2-section {
+    margin-top: 50px; }
+    .seccion-3 .contacto2-section img {
+      width: 30%;
+      margin: 30px auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-3 .contacto2-section img {
+          width: 50%; } }

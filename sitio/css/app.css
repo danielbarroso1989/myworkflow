@@ -1,7 +1,90 @@
-body {
-  background: white; }
+html, body {
+  height: 100%;
+  width: 100%; }
+
+p {
+  font-size: 16px; }
+
+.contenido {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+  @media only screen and (max-width: 750px) {
+    .contenido {
+      height: auto;
+      padding-top: 30px; } }
+
+.pleca-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  @media only screen and (max-width: 750px) {
+    .pleca-bottom {
+      display: none; } }
+  .pleca-bottom img {
+    width: 100%; }
+
+.logos-left img {
+  width: 50%;
+  margin: auto; }
 
 .box {
-  text-shadow: 1px 1px 1px 1px black;
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease; }
+  width: 90%;
+  margin: auto; }
+  @media only screen and (max-width: 750px) {
+    .box {
+      width: 95%;
+      margin-top: 20px; } }
+
+.seccion-1 {
+  position: relative; }
+  .seccion-1 .titulo {
+    color: #990000;
+    margin-bottom: 20px; }
+  .seccion-1 .texto {
+    margin-bottom: 20px; }
+  .seccion-1 .lista {
+    margin-bottom: 20px; }
+  .seccion-1 span {
+    font-size: 30px;
+    margin-top: -10px; }
+  .seccion-1 .logos {
+    margin-top: 100px; }
+    @media only screen and (max-width: 750px) {
+      .seccion-1 .logos {
+        margin-top: 0%; } }
+    .seccion-1 .logos img {
+      width: 90%;
+      margin: auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-1 .logos img {
+          width: 50%; } }
+
+.seccion-2 {
+  position: relative; }
+  .seccion-2 .titulo {
+    color: #990000;
+    margin-bottom: 20px; }
+  .seccion-2 .texto {
+    margin-bottom: 20px; }
+  .seccion-2 .lista {
+    margin-bottom: 20px; }
+  .seccion-2 span {
+    font-size: 30px;
+    margin-top: -10px; }
+  .seccion-2 .logos {
+    margin-top: 50px; }
+    @media only screen and (max-width: 750px) {
+      .seccion-2 .logos {
+        margin-top: 30px; } }
+    .seccion-2 .logos img {
+      width: 25%;
+      margin: auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-2 .logos img {
+          width: 30%; } }
+  .seccion-2 .logo-vento {
+    width: 70%; }
+  .seccion-2 .titulo-evento {
+    width: 60%;
+    margin: 20px auto; }

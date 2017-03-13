@@ -20,6 +20,14 @@ html,body{
 p{
 	font-size:16px;
 }
+.carousel,.item,.active{height:100%;
+@include phone{  height: auto; }
+}
+.carousel-inner{height:100%;
+@include phone{  height: auto; }
+
+}
+
 .contenido{
 height:100%;
 width:100%;
@@ -63,6 +71,7 @@ margin-top:20px;
 //seccion 1
 .seccion-1{
 position:relative;
+margin-top:80px;
 
 
 .titulo{
@@ -232,4 +241,148 @@ margin:30px auto;
 
 
 }
+
+
+//seccion 4
+.seccion-4{
+position:relative;
+background-image:url('../img/fondo-trscielos.png');
+ background-repeat: no-repeat;
+   background-size: cover;  
+
+.titulo{
+color:$rojo;
+margin-bottom:20px;
+}
+.texto{
+margin-bottom:20px;	
+}
+.lista{
+margin-bottom:20px;
+}
+span{
+	font-size:30px;
+	margin-top:-10px;
+}
+.logos{
+	margin-top:50px;
+	height:auto;
+
+	@include phone{ 
+margin-top:30px;
+}
+
+	img{
+width:25%;
+margin:auto;
+@include phone{ 
+width:40%;
+
+}
+
+	}
+}
+
+
+.logo-vento{
+	width:50%;
+}
+.titulo-evento{
+	width:60%;
+	margin:20px auto;
+}
+
+.contacto2-section{
+	margin-top:100px;
+
+	img{
+      width: 50%;
+      margin: 40px auto;
+      @include phone{ 
+      width: 90%;
+      }
+	}
+}
+
+.punts{
+	width:30%;
+}
+.texto{
+margin-top:10px;
+}
+
+}
+
+
+
+//seccion 5
+.seccion-5{
+position:relative;
+background-image:url('../img/fondo-trscielos.png');
+ background-repeat: no-repeat;
+   background-size: cover;  
+
+.titulo{
+color:$rojo;
+margin-bottom:20px;
+}
+.texto{
+margin-bottom:20px;	
+}
+.lista{
+margin-bottom:20px;
+}
+span{
+	font-size:30px;
+	margin-top:-10px;
+}
+.logos{
+	margin-top:50px;
+	height:auto;
+
+	@include phone{ 
+margin-top:30px;
+}
+
+	img{
+width:25%;
+margin:auto;
+@include phone{ 
+width:40%;
+
+}
+
+	}
+}
+
+
+.logo-vento{
+	width:50%;
+}
+.titulo-evento{
+	width:60%;
+	margin:20px auto;
+}
+
+.contacto2-section{
+	margin-top:100px;
+
+	img{
+      width: 50%;
+      margin: 40px auto;
+      @include phone{ 
+      width: 90%;
+      }
+	}
+}
+
+.punts{
+	width:30%;
+}
+.texto{
+margin-top:10px;
+}
+
+}
+
 

@@ -5,6 +5,18 @@ html, body {
 p {
   font-size: 16px; }
 
+.carousel, .item, .active {
+  height: 100%; }
+  @media only screen and (max-width: 750px) {
+    .carousel, .item, .active {
+      height: auto; } }
+
+.carousel-inner {
+  height: 100%; }
+  @media only screen and (max-width: 750px) {
+    .carousel-inner {
+      height: auto; } }
+
 .contenido {
   height: 100%;
   width: 100%;
@@ -37,7 +49,8 @@ p {
       margin-top: 20px; } }
 
 .seccion-1 {
-  position: relative; }
+  position: relative;
+  margin-top: 80px; }
   .seccion-1 .titulo {
     color: #990000;
     margin-bottom: 20px; }
@@ -142,3 +155,93 @@ p {
       @media only screen and (max-width: 750px) {
         .seccion-3 .contacto2-section img {
           width: 50%; } }
+
+.seccion-4 {
+  position: relative;
+  background-image: url("../img/fondo-trscielos.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .seccion-4 .titulo {
+    color: #990000;
+    margin-bottom: 20px; }
+  .seccion-4 .texto {
+    margin-bottom: 20px; }
+  .seccion-4 .lista {
+    margin-bottom: 20px; }
+  .seccion-4 span {
+    font-size: 30px;
+    margin-top: -10px; }
+  .seccion-4 .logos {
+    margin-top: 50px;
+    height: auto; }
+    @media only screen and (max-width: 750px) {
+      .seccion-4 .logos {
+        margin-top: 30px; } }
+    .seccion-4 .logos img {
+      width: 25%;
+      margin: auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-4 .logos img {
+          width: 40%; } }
+  .seccion-4 .logo-vento {
+    width: 50%; }
+  .seccion-4 .titulo-evento {
+    width: 60%;
+    margin: 20px auto; }
+  .seccion-4 .contacto2-section {
+    margin-top: 100px; }
+    .seccion-4 .contacto2-section img {
+      width: 50%;
+      margin: 40px auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-4 .contacto2-section img {
+          width: 90%; } }
+  .seccion-4 .punts {
+    width: 30%; }
+  .seccion-4 .texto {
+    margin-top: 10px; }
+
+.seccion-5 {
+  position: relative;
+  background-image: url("../img/fondo-trscielos.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .seccion-5 .titulo {
+    color: #990000;
+    margin-bottom: 20px; }
+  .seccion-5 .texto {
+    margin-bottom: 20px; }
+  .seccion-5 .lista {
+    margin-bottom: 20px; }
+  .seccion-5 span {
+    font-size: 30px;
+    margin-top: -10px; }
+  .seccion-5 .logos {
+    margin-top: 50px;
+    height: auto; }
+    @media only screen and (max-width: 750px) {
+      .seccion-5 .logos {
+        margin-top: 30px; } }
+    .seccion-5 .logos img {
+      width: 25%;
+      margin: auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-5 .logos img {
+          width: 40%; } }
+  .seccion-5 .logo-vento {
+    width: 50%; }
+  .seccion-5 .titulo-evento {
+    width: 60%;
+    margin: 20px auto; }
+  .seccion-5 .contacto2-section {
+    margin-top: 100px; }
+    .seccion-5 .contacto2-section img {
+      width: 50%;
+      margin: 40px auto; }
+      @media only screen and (max-width: 750px) {
+        .seccion-5 .contacto2-section img {
+          width: 90%; } }
+  .seccion-5 .punts {
+    width: 30%; }
+  .seccion-5 .texto {
+    margin-top: 10px; }

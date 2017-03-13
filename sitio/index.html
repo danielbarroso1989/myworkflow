@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Unique Group :: Somos</title>
+<meta charset="utf-8" />
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- style -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="/js/app.js"></script>
+  
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
 	<link href="/css/jquery.bxslider.css" rel="stylesheet" />
-
+     
+       <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 
 
@@ -19,12 +25,37 @@
 <body>
 
 
+
+<div class="nav-movil">
+  
+<div class="icono-menu">
+<div class="open-menu-top"><span class="glyphicon glyphicon-menu-hamburger" id="iconos-menu"></span></div>
+<div class="close-menu-top"><span class="glyphicon glyphicon glyphicon-remove" id="iconos-menu"></span></div>
+
+</div>
+
+<ul class="list-menu-top">
+  <a href="#myCarousel" data-slide-to="0" ><li onclick="cerrar_menu();"><img src="imagenes/unique_group.png" alt=""></li></a>
+  <a href="#myCarousel" data-slide-to="1" ><li onclick="cerrar_menu();"><img src="imagenes/unique_entertainment.png" alt=""></li></a>
+  <a href="#myCarousel" data-slide-to="2" ><li onclick="cerrar_menu();"><img src="imagenes/warm_up.png" alt=""></li></a>
+ <a href="#myCarousel" data-slide-to="3" > <li onclick="cerrar_menu();"><img src="imagenes/tres_cielos.png" alt=""></li></a>
+  <a href="#myCarousel" data-slide-to="4" ><li onclick="cerrar_menu();"><img src="imagenes/juan_molletes.png" alt=""></li></a>
+</ul>
+
+
+</div>
+
+
+
+
+
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
  <div class="carousel-inner" role="listbox">
 
 
 <!-- section 1 -->
-    <div class="item unique-main active " style="height:auto;">
+    <div class="item unique-main active " ">
 	
 <div class="row middle-xs center-xs contenido seccion-1 ">
    
@@ -32,6 +63,9 @@
 
     <div class="col-md-6  col-sm-6  col-xs-12 center-xs">
         <div class="box">
+
+ 
+
             <p class="titulo">Unique Group crece y se consolida para ofrecerte los mejores servicios.</p>
             <p class="texto">Más de 10 años de experiencia y muchos clientes satisfechos respaldan lo que hoy Unique Group tiene para ofrecer a distintos nichos de mercado, destacando:</p>
             <div class="lista">
@@ -45,10 +79,10 @@
             </div>
 
             <div class="logos">
-                <div class="col-md-3 col-sm-3 col-xs-12"><img src="imagenes/logo-uniqueentertaiment.png" alt=""></div>
-                <div class="col-md-3 col-sm-3 col-xs-12"><img src="imagenes/logo-warmup.png" alt=""></div>
-                <div class="col-md-3 col-sm-3 col-xs-12"><img src="imagenes/logo-juanmolletes.png" alt=""></div>
-                <div class="col-md-3 col-sm-3 col-xs-12"><img src="imagenes/logo_3Cielos.png" alt=""></div>
+               <a href="#myCarousel" data-slide-to="1" >  <div class="col-md-3 col-sm-3 col-xs-12"><img src="imagenes/logo-uniqueentertaiment.png" alt=""></div></a>
+                <a href="#myCarousel" data-slide-to="2" > <div class="col-md-3 col-sm-3 col-xs-12"><img src="imagenes/logo-warmup.png" alt=""></div></a>
+                <a href="#myCarousel" data-slide-to="4" > <div class="col-md-3 col-sm-3 col-xs-12"><img src="imagenes/logo-juanmolletes.png" alt=""></div></a>
+                <a href="#myCarousel" data-slide-to="3" > <div class="col-md-3 col-sm-3 col-xs-12"><img src="imagenes/logo_3Cielos.png" alt=""></div></a>
 
             </div>
 
@@ -73,7 +107,7 @@
 
  <!-- section 2 -->
   <div class="item unique-ent">
-<div class="row middle-xs center-xs contenido seccion-2 ">
+<div class="row middle-xs center-xs contenido seccion-2 " id="">
    
  <div class="col-md-6  col-sm-6  col-xs-12 logos-left" > <img src="img/logounique-ent.png" alt="logotipo-unique-group"></div>
 
@@ -91,22 +125,23 @@
 
 
             <div class="contacto">
-            <div class="col-md-12 ">4336.1982 ext. 106</div>
-            <div class="col-md-12 ">(55) 2107.4911</div>
+            <div class="col-md-12 "><p>4336.1982 ext. 106</p></div>
+            <div class="col-md-12 "><p>(55) 3045 0632</p></div>
             </div>
 
             <div class="logos">
-                <div class="col-md-3 col-sm-3 col-xs-3"><img src="img/facebook_red.png" alt=""></div>
-                <div class="col-md-3 col-sm-3 col-xs-3"><img src="img/twitter_red.png" alt=""></div>
-                <div class="col-md-3 col-sm-3 col-xs-3"><img src="img/instagram_red.png" alt=""></div>
-                <div class="col-md-3 col-sm-3 col-xs-3"><img src="img/youtube_red.png" alt=""></div>
+                <a href="https://www.facebook.com/uniqueeventosmexico/" target="_blank"><div class="col-md-3 col-sm-3 col-xs-3"><img src="img/facebook_red.png" alt=""></div></a>
+                <a href="https://twitter.com/unique_eventos1" target="_blank"><div class="col-md-3 col-sm-3 col-xs-3"><img src="img/twitter_red.png" alt=""></div></a>
+                <a href="https://www.instagram.com/unique_eventos1/" target="_blank"><div class="col-md-3 col-sm-3 col-xs-3"><img src="img/instagram_red.png" alt=""></div></a>
+                <a href="https://www.youtube.com/channel/UCZfqCkLAbZY4cd6qVAeIUcQ" target="_blank"><div class="col-md-3 col-sm-3 col-xs-3"><img src="img/youtube_red.png" alt=""></div></a>
+
 
             </div>
 
             
                <div class="contacto2-section">
                <div class="col-md-12 ">contacto@unique-eventos.com</div>
-               <img src="img/ent-verweb.png" alt="ver-unique-eventos">
+               <a href="http://www.unique-eventos.com/" target="_blank"><img src="img/ent-verweb.png" alt="ver-unique-eventos"></a>
                </div>
 
 
@@ -159,7 +194,7 @@
             
                <div class="contacto2-section">
            
-               <img src="img/wu-verweb.png" alt="ver-unique-eventos">
+                <a href="http://www.warmup.mx/" target="_blank"> <img src="img/wu-verweb.png" alt="ver-unique-eventos"></a>
                </div>
 
 
@@ -207,9 +242,10 @@ ALTA CALIDAD.</p>
              	<img src="img/puntos.png" class="punto " alt="unique titulo">
 
             <div class="logos">
-                <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/pinterest_red-tres.png" alt=""></div>
-                <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/facebook_red-tres.png" alt=""></div>
-                <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/instagram_red-tres.png" alt=""></div>
+               <a href="https://www.facebook.com/trescieloseventos/" target="_blank"> <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/pinterest_red-tres.png" alt=""></div></a>
+                    <a href="https://www.facebook.com/trescieloseventos/" target="_blank"> <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/facebook_red-tres.png" alt=""></div></a>
+
+                <a href="https://www.instagram.com/trescielosmx/" target="_blank">  <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/instagram_red-tres.png" alt=""></div></a>
               
 
             </div>
@@ -217,7 +253,7 @@ ALTA CALIDAD.</p>
             
                <div class="contacto2-section">
                <div class="col-md-12 ">contacto@trescielos.mx</div>
-               <img src="img/ent-evsyp.png" alt="ver-unique-eventos">
+               <a href="http://www.trescielos.mx/" target="_blank"><img src="img/ent-evsyp.png" alt="ver-unique-eventos"></a>
                </div>
 
 
@@ -249,35 +285,31 @@ ALTA CALIDAD.</p>
 
 
         <div class="logo-titulo">
-        	<img src="img/logo_3Cielos.png" class="logo-vento" alt="unique-eventos">
+        	<img src="img/logo-jm.png" class="logo-vento" alt="unique-eventos">
                 </div>
 <div class="texto">
-                <p>TRES CIELO ES UN
-LUGAR ÚNICO EN</br>
-TEQUESQUITENGO</br>
-MORELOS, DISEÑADO</br>
-PARA TODO TIPO DE </br>
-EVENTOS Y BODAS DE</br>
-ALTA CALIDAD.</p>
+                <p>TEL. 7312 - 0871</br>
+                   SINALOA 164 - COL. ROMA - CDMX.
+                </p>
          </div>
 
 
 
 
-             	<img src="img/puntos.png" class="punto " alt="unique titulo">
+             
 
             <div class="logos">
-                <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/pinterest_red-tres.png" alt=""></div>
-                <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/facebook_red-tres.png" alt=""></div>
-                <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/instagram_red-tres.png" alt=""></div>
+               
+               <a href="https://www.facebook.com/JuanMolletesMX/?ref=ts&fref=ts" target="_blank"> <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/facebook_red-juan.png" alt=""></div></a>
+                <a href="https://twitter.com/juanmolletesmx" target="_blank"> <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/twitter_red-juan.png" alt=""></div></a>
+                <a href="https://www.instagram.com/juanmolletes/" target="_blank">  <div class="col-md-4 col-sm-4 col-xs-4"><img src="img/instagram_red-juan.png" alt=""></div></a>
               
 
             </div>
 
             
                <div class="contacto2-section">
-               <div class="col-md-12 ">contacto@trescielos.mx</div>
-               <img src="img/ent-evsyp.png" alt="ver-unique-eventos">
+              <a href="http://www.juanmolletes.com.mx/" target="_blank"> <img src="img/jm-verweb.png" alt="ver-unique-eventos"></a>
                </div>
 
 
@@ -324,6 +356,9 @@ ALTA CALIDAD.</p>
   	$('.carousel').carousel({
   interval: 000
 })
+  	function goToSlide(number) {
+   $("#carousel").carousel(number);
+}
   </script>
 
 </html>

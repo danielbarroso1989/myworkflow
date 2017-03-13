@@ -13,6 +13,48 @@ $rojo:#990000;
   }
 }
 
+
+
+@font-face {
+    font-family: trecielos;
+    src: url('../fonts/gotham-black.woff') format('woff');
+   
+
+}
+
+@font-face {
+    font-family: 'biko';
+    src: url('../fonts/texgyreadventor-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+font-family: DistPro;
+src: url('../fonts/distpro.woff') format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+font-family: AmTW;
+src: url('../fonts/amtw.ttf') format('truetype'); /* Modern Browsers */
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('../fonts/Caviar_Dreams_Bold-webfont.eot');
+    src: url('../fonts/Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('../fonts/Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 html,body{
   height:100%;
   width:100%;
@@ -26,6 +68,12 @@ p{
 .carousel-inner{height:100%;
 @include phone{  height: auto; }
 
+}
+.left,.right{
+	position:fixed;
+}
+.carousel-control {
+	width:8%;
 }
 
 .contenido{
@@ -68,10 +116,67 @@ margin-top:20px;
 
 }
 
+
+
+//menu
+.nav-movil{
+	display:none;
+
+@include phone{
+	display:block;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:auto;
+	z-index:5000;
+		
+	
+	}
+
+
+	ul{
+		width: 100%;
+		padding:0;
+
+		li{
+			width: 100%;
+			vertical-align: top;
+			border-bottom:1px solid black;
+			list-style-type: none;
+
+			img{
+				width: 100%;
+				
+			}
+		}
+	}
+
+
+}
+.list-menu-top{
+	display:none;
+}
+.icono-menu{
+	position:relative;
+	width:100%;
+	span{
+		font-size: 35px;
+	}
+}
+#iconos-menu{
+	position:absolute;
+	right:20px;
+	top:20px;
+}
+.close-menu-top{
+	display:none;
+}
+
+
 //seccion 1
 .seccion-1{
 position:relative;
-margin-top:80px;
+
 
 
 .titulo{
@@ -87,6 +192,7 @@ margin-bottom:20px;
 span{
 	font-size:30px;
 	margin-top:-10px;
+	color:$rojo;
 }
 .logos{
 	margin-top:100px;
@@ -112,9 +218,12 @@ width:40%;
 .seccion-2{
 position:relative;
 background-image:url('../img/bg-ent.png');
- background-repeat: no-repeat;
-   background-size: cover;  
-
+background-repeat: no-repeat;
+background-size: cover;  
+font: inherit;
+font-family: "Arial Narrow", Arial, sans-serif !important;
+color: #727375;
+font-size:18px;
 .titulo{
 color:$rojo;
 margin-bottom:20px;
@@ -181,6 +290,9 @@ width:30%;
 .seccion-3{
 p{
 	font-size:40px !important;
+	  font-family: "DistPro";
+	        font: 'inherit' ;
+	        font-size: xx-large;
 }
 position:relative;
 background-image:url('../img/bg-wu.png');
@@ -249,7 +361,11 @@ position:relative;
 background-image:url('../img/fondo-trscielos.png');
  background-repeat: no-repeat;
    background-size: cover;  
-
+   font-family: trecielos;
+   color: #7E7E7E;
+p{
+	font-family: trecielos;
+}
 .titulo{
 color:$rojo;
 margin-bottom:20px;
@@ -318,9 +434,12 @@ margin-top:10px;
 //seccion 5
 .seccion-5{
 position:relative;
-background-image:url('../img/fondo-trscielos.png');
+background-image:url('../img/bg-jm.png') ;
+
  background-repeat: no-repeat;
    background-size: cover;  
+   	color: #727375;
+	font-family: "caviar_dreamsbold";
 
 .titulo{
 color:$rojo;
@@ -335,6 +454,7 @@ margin-bottom:20px;
 span{
 	font-size:30px;
 	margin-top:-10px;
+
 }
 .logos{
 	margin-top:50px;
@@ -368,10 +488,10 @@ width:40%;
 	margin-top:100px;
 
 	img{
-      width: 50%;
+      width: 20%;
       margin: 40px auto;
       @include phone{ 
-      width: 90%;
+      width: 40%;
       }
 	}
 }
